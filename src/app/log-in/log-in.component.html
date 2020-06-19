@@ -1,0 +1,39 @@
+
+
+
+
+<div class="contenedor">
+<div id="" class="row">
+
+
+    <div class="col s4 offset-s4 ">
+          <h5 id="titulo" class="#e8eaf6 indigo lighten-5">Inicia Sesión</h5>
+<div class="row login-page z-depth-6 card-panel">
+      <form (ngSubmit)="enviarForm(f)" #f="ngForm" class="login-form">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">mail_outline</i>
+            <input class="validate" id="email" type="email" ngModel name="email" required >
+            <label for="email" data-error="wrong" data-success="right">Correo Elecronico</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">lock_outline</i>
+            <input id="password" type="password" ngModel name="password" required>
+            <label for="password">Contraseña</label>
+          </div>
+        </div>
+        <div class="row center-align">
+          <div class="input-field col s12">
+            <button class="btn waves-effect waves-light" type="submit" name="action" value="submit">Ingresar
+              <i class="material-icons right">send</i>
+            </button>
+
+          </div>
+        </div>
+      </form>
+</div>
+    </div>
+  </div>
+  </div>

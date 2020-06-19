@@ -1,0 +1,23 @@
+<div class="row">
+
+
+<div class="col l9">
+    <h1 class="header" id="titulo">{{objProd.titulo}}</h1>
+</div>
+<div class="col l12">
+  <div class="col l5 #ffcdd2 red lighten-4 card" style="border:2px solid black">
+    <div class="card-image">
+    <img class="tamImg" src={{objProd.ruta}} alt="">
+    </div>
+  </div>
+    <div class="col l4 #e3f2fd blue lighten-5" style="border:2px solid black">
+      <div class="card-content textoCard">
+        <p id="precio" style="margin-top:20px">Precio: {{objProd.precio}}</p>
+        <p style="margin-top:150px;margin-bottom:150px">Unidades Disponibles: {{objProd.stock}}</p>
+      </div>
+    </div>
+</div>
+    <div class="col l12">
+      <div [routerLink]="['/main/index-products']" class="waves-effect waves-light btn" id="atras" (click)="atras()"><p>atras</p></div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.margenSuperiorTitulo{
+position: relative;
+left:20px;
+line-height:2.6;
+font-size: 2.2em;
+}
+
+.tituloBuscador{
+  font-size: 1.2em;
+  position: relative;
+  right: 10px;
+}
+form p{
+  font-size: 1.5em;
+}
+.buscador{
+border: 2px solid gray;
+}
+.correccionCarrito{
+  position: relative;
+  bottom: 65px;
+}

@@ -1,0 +1,27 @@
+
+.contenedor {
+
+    background: url("./assets/login-fondo.jpg");
+    background-size:cover;
+    height:100vh;
+}
+
+.login-page{
+  position: absolute;
+  top:50%;
+transform: translate(-50%, -50%);
+left: 50%;
+height: 35%;
+width:35%;
+}
+.centrarBoton{
+  margin-left: auto;
+  margin-right: auto;
+}
+#titulo{
+  color: black;
+  position: absolute;
+  top:25%;
+  left: 50%;
+  transform: translateX(-50%);
+}

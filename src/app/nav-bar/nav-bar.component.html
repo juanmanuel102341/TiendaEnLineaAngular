@@ -1,0 +1,32 @@
+
+<nav style="height:90px; line-height:2.6;">
+   <div class="nav-wrapper" >
+     <a id="titulo">La Bodega</a>
+     <ul class=" right hide-on-med-and-down">
+       <div class="row" style="margin-top:10px">
+         <div class="col l4">
+           <li class=""><a (click)="irAindex()"><i class="material-icons right tamIcon">view_module</i></a></li>
+         </div>
+
+       <div class="col l4">
+         <li class="" style="position: relative; left: 0; top: 0;">
+           <a (click)="onCompras()"><i class="material-icons right tamIcon" >shopping_cart</i></a>
+
+            <div class="navCarritoCirculoCompra ocultarAlpha objCarrito">
+              <img src="assets/circulo.png" class="" alt="circulo">
+           </div>
+           <div class="navTextoCompra ocultarAlpha objCarrito">
+             <p class="textoNavCarrito">{{numeroCarrito}}</p>
+           </div>
+          </li>
+       </div>
+
+      <div class="col l4">
+             <li><a (click)="salirAplicacion()"><i class="material-icons right tamIcon">exit_to_app</i></a></li>
+      </div>
+
+
+        </div>
+     </ul>
+   </div>
+ </nav>

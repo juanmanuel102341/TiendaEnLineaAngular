@@ -1,0 +1,55 @@
+.tamCarrito{
+
+  text-align: right;
+
+}
+.tamCarrito img{
+  height: 40px;
+  width: 40px;
+
+  position: relative;
+  bottom: 80px;
+  left: 30px;
+}
+.textoNumero{
+  color:black;
+  position: relative;
+  right: 17px;
+  bottom: 92px;
+  font-size: 1.2em;
+}
+.mas2cifras{
+position: relative;
+right:6px;
+}
+.tamIcon{
+font-size:1.9em;
+}
+.ocultarAlpha{
+  opacity:0.0;
+}
+
+.navCarritoCirculoCompra{
+  position: absolute;
+left:53px;
+}
+.navCarritoCirculoCompra img{
+  height: 40px;
+  width: 40px;
+}
+.navTextoCompra{
+  position: absolute;
+  left:69px;
+bottom: 3px;
+}
+.navTextoCompra p{
+  color:black;
+    font-size: 1.2em;
+}
+#titulo{
+  font-size:3.0em;
+  position: relative;
+  bottom:20px;
+  margin-left: 20px;
+
+}

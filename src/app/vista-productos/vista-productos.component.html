@@ -1,0 +1,40 @@
+<div class="row" id="mainRow">
+  <div class="col s3 m3 l3 objCard" *ngFor="let data of arrCardsObj " id={{data.titulo}}>
+        <div class="card #ede7f6 deep-purple lighten-5">
+          <div class="card-image tamFoto valign-wrapper">
+          <img class="" src={{data.ruta}}>
+          </div>
+          <div class="card-content #e0f7fa cyan lighten-5">
+          <h4>{{data.titulo}}</h4>
+          <p class="tamTextoCards"style="margin-bottom:10px">Precio:{{data.precio}}</p>
+          <p class="tamTextoCards">Unidades Disponibles:{{data.stock}}</p>
+          </div>
+          <div class="card-action #e0f7fa cyan lighten-4" style="height:45px">
+              <div class="row">
+                  <div class="col l4 ">
+                  <div (click)="guardandoData()" [routerLink]="['/main/vista-ampliada', data.titulo, data.precio, data.stock, data.ruta]" class="waves-effect waves-light btn botones" ><p>Ver Mas</p></div>
+                  </div>
+                  <div class="col l4 ">
+                <div (click)="clickAnadir(data.titulo)"class="waves-effect waves-light btn botones anadir" style="width:6vw" [attr.data-sectionvalue]="data.titulo"><p style="position:relative;right:3px;">Añadir</p></div>
+                 </div>
+                 <div class="col l4 cantidad">
+                <input class="customInput" (change)="update($event, data.titulo)" type="number" value="1" min="1" max="50">
+                </div>
+
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row" *ngIf="arrCardsObj.length==0"style="height650px">
+      <div class="col l4 left-align" >
+
+        <div class="card-stacked">
+          <div class="card-content #e0f7fa cyan lighten-5">
+          <p style="font-size:1.6em;padding-left:20px;">no se encontraron productos</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>

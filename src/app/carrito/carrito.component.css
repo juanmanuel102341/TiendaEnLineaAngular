@@ -1,0 +1,39 @@
+.tamFoto{
+  height: 120px;
+  width: 120px;
+
+}
+.tamCardFoto{
+  height: 150px;
+  width: 150px;
+margin-left: 5px;
+}
+
+.tamP{
+  font-size:0.9em;
+  font-weight: bold;
+}
+#subtotal{
+  font-size: 1.2em;
+  color:red;
+}
+.contenedor{
+  background: url(./assets/main-fondo.jpg);
+
+  background-size:cover;
+}
+.botonesCentro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ button{
+  height: 60px;
+  width: 100px;
+}
+.canastaVacia p{
+  font-size: 1.2em;
+}
+.altoPantallaPocosProductos{
+  height: 75vh;
+}

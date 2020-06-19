@@ -1,0 +1,17 @@
+
+<div class="row">
+  <div class="col s5 m5 l6" style="">
+    <p class="margenSuperiorTitulo ">Catálogo de Productos</p>
+
+  </div>
+  <div class="col s4 m4 l4 offset-s2 offset-m2 offset-l2 ">
+        <form>
+            <p class="">Que estas Buscando?</p>
+            <div class="input-field col s12 m12 l11 buscador tituloBuscador">
+               <input placeholder=" Buscar Producto" id="buscar" type="text" class="validate"  (keydown)="onChangeInput($event)"/>
+            </div>
+
+        </form>
+  </div>
+</div>
+<router-outlet></router-outlet>

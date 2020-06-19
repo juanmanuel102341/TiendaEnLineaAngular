@@ -1,0 +1,47 @@
+#mainRow{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tamFoto{
+  height:250px;
+  width: 250px;
+
+}
+.tamFoto img{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin-left:43px;
+}
+.tamTextoCards{
+  font-size:0.9em;
+}
+.botones{
+  height:3vh;
+  position:relative;
+  bottom:10px;
+  width: 7vw;
+  font-size: 0.6em;
+ white-space:nowrap;
+ line-height:0.8em;
+
+}
+.cantidad{
+position: relative;
+bottom:15px;
+
+}
+.cantidad input{
+  font-size: 1.3em;
+border:none;
+margin-left: 20px;
+
+}
+.customInput:focus{
+  border: none!important;
+}
+.anadir {
+  position: relative;
+  left:20px;
+
+}
